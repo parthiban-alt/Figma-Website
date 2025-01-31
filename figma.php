@@ -61,27 +61,33 @@
             </div>
           </div>
     </section>
-    <section id="about" class="about section m-3">
+    <!-- About section start -->
+    <section id="about" class="about section my-3">
         <div class="container">
-          <div class="row gy-4 mt-5">
+          <div class="row gy-4 mt-3">
             <div class="col-lg-6">
-              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <a href="#" class="read-more fs-5"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+               <h1 class="hero-font"style="color:#001233" >Financial Evolution<br>The FinFuse Story</h1>
             </div>
-            <div class="col-lg-6 content">
+            <div class="col-lg-6 content ">
             <h6 class="hero-font-1  text-capitalize fs-6">We Pave the Way for Tomorrow's Financial Frontier by Seamlessly Integrating Innovation, Accessibility, and Trust, Crafting Solutions That Empower Individuals</h6>
-              
+
+                  <div class="row">
+                  <div class="col-lg-1 order-2 order-lg-1 " >
+                      <i class="fa-solid fa-arrow-right text-light p-1" style="background-color:#001233;border-radius:50%"></i>
+                  </div>
+                    <div class="col-lg-11 order-2 " >
+                       <h5>Discover more</h5>
+                    </div>
+                  
+                  </div>
             </div>
           </div>
-        
         </div>
-
       </section>
 
     </main>
-    <footer id="footer" class="footer mt-2">
+    <!-- Footer Section Start-->
+    <footer id="footer" class="footer">
       <div class="container pt-5">
         <div class="row gy-5">
           <div class="col-lg-7 col-md-12 footer-about ">
@@ -101,11 +107,9 @@
           <div class="col-lg-5 col-md-12 mt-0 pt-0 me-0">
               <img src="assets/footer-image.png" class="card-img-top" style="width:100%" alt="...">
           </div>
-         </div>       
-        
+         </div>         
       </div>
-      
-      <div class="container pb-4">
+        <div class="container pb-4">
           <hr class="text-light">
           <div class="row">
             <div class="col-lg-6 col-md-12 text-light ">
@@ -121,6 +125,7 @@
       </div>
      
     </footer>
+    <!-- Footer Section End -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
