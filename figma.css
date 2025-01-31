@@ -1,0 +1,23 @@
+#hero,header,#footer{
+    background-color: #001233;
+}
+.hero-font {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 55px;
+  }
+  .hero-font-1 {
+    font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+  }
+  .navbar{
+    padding-top: 58px;
+  }
+  .hero-font-2 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+  }
