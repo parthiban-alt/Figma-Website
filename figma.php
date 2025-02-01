@@ -62,11 +62,11 @@
           </div>
     </section>
     <!-- About section start -->
-    <section id="about" class="about section my-3">
+    <section id="about" class="about section my-3 ">
         <div class="container">
           <div class="row gy-4 mt-3">
             <div class="col-lg-6">
-               <h1 class="hero-font"style="color:#001233" >Financial Evolution<br>The FinFuse Story</h1>
+               <h1 class="hero-font mb-5"style="color:#001233" >Financial Evolution<br>The FinFuse Story</h1>
             </div>
             <div class="col-lg-6 content ">
             <h6 class="hero-font-1  text-capitalize fs-6">We Pave the Way for Tomorrow's Financial Frontier by Seamlessly Integrating Innovation, Accessibility, and Trust, Crafting Solutions That Empower Individuals</h6>
@@ -80,6 +80,30 @@
                     </div>
                   
                   </div>
+            </div>
+          </div>
+        </div>
+        <!-- About card section -->
+       <div class="container ">
+          <div class="row d-flex justify-content-center">
+            <div class="card col-lg-3 me-5" style="background-color:#EEF2F3;border:none;border-radius:50px;margin-top:70px;height:220px;">
+              <div class="card-body p-4">
+                <p class="hero-font-1">Providing Robust Security Measures to Safeguard Your Hard- Earned Savings</p>
+                <button type="button" class="btn text-light px-3 py-1 ms-4" style="border-radius:10px;background-color:#001233;">Check account</button>
+              </div>
+            </div>
+            
+            <div class="card col-lg-3 me-5" style="border:none;background-color:#001233;color:white;border-radius:50px;height:220px;">
+              <div class="card-body p-4">
+                <p class="hero-font-1">Providing Robust Security Measures to Safeguard Your Hard- Earned Savings</p>
+                <button type="button" class="btn  text-black px-3 py-1 ms-4" style="border-radius:10px;background-color:white;">Check account</button>
+              </div>
+            </div>
+            <div class="card col-lg-3" style="background-color:#EEF2F3;border:none;border-radius:50px;margin-top:70px;">
+              <div class="card-body p-4">
+                <p class="hero-font-1">Providing Robust Security Measures to Safeguard Your Hard- Earned Savings</p>
+                <button type="button" class="btn text-light px-3 py-1 ms-5" style="border-radius:10px;background-color:#001233;">Transactions</button>
+              </div>
             </div>
           </div>
         </div>
