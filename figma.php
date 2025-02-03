@@ -49,7 +49,7 @@
                 <h1 class="hero-font text-light pt-4">Redefining</h1> <h1 class="hero-font" style="color:yellow;">business realities with</h1> <h1 class="hero-font text-light">ERP Solutions.</h1>
                 <h6 class="hero-font-1 text-light text-capitalize fs-6 pt-2">Explore FinFuse Today. Your Finances: Discover FinFuse's Fintech Revolution, Transforming Banking Experiences One Click at a Time</h6>
                 <div class="d-flex ">
-                <button type="button" class="btn text-black px-3 py-1 mt-5 me-5" style="border-radius:30px;background-color:yellow;">Get Started</button>
+                <button type="button" class="btn text-black px-3 py-1 mt-5 me-4" style="border-radius:30px;background-color:yellow;">Get Started</button>
                 <button type="button" class="btn text-light  px-3 py-1 mt-5" style="border:1px solid white;border-radius:40px">Watch Our Features</button>
 
                 </div>
@@ -69,9 +69,9 @@
                <h1 class="hero-font mb-5"style="color:#001233" >Financial Evolution<br>The FinFuse Story</h1>
             </div>
             <div class="col-lg-6 content ">
-            <h6 class="hero-font-1  text-capitalize fs-6">We Pave the Way for Tomorrow's Financial Frontier by Seamlessly Integrating Innovation, Accessibility, and Trust, Crafting Solutions That Empower Individuals</h6>
+            <h6 class="hero-font-1 text-capitalize fs-6 mt-3">We Pave the Way for Tomorrow's Financial Frontier by Seamlessly Integrating Innovation, Accessibility, and Trust, Crafting Solutions That Empower Individuals</h6>
 
-                  <div class="row">
+                  <div class="row mb-5">
                   <div class="col-lg-1 order-2 order-lg-1 " >
                       <i class="fa-solid fa-arrow-right text-light p-1" style="background-color:#001233;border-radius:50%"></i>
                   </div>
@@ -83,32 +83,189 @@
             </div>
           </div>
         </div>
-        <!-- About card section -->
-       <div class="container ">
-          <div class="row d-flex justify-content-center">
-            <div class="card col-lg-3 me-5" style="background-color:#EEF2F3;border:none;border-radius:50px;margin-top:70px;height:220px;">
-              <div class="card-body p-4">
-                <p class="hero-font-1">Providing Robust Security Measures to Safeguard Your Hard- Earned Savings</p>
-                <button type="button" class="btn text-light px-3 py-1 ms-4" style="border-radius:10px;background-color:#001233;">Check account</button>
+          <!-- About card section -->
+          <div class="container text-center">
+            <div class="row d-flex justify-content-center gap-4 mb-5">
+              
+              <!-- First Column (First Card) -->
+              <div class="col-lg-3">
+                <h1 class="fw-bold" style="color: #001233; margin-bottom: 10px;margin-top:110px;">5.65%</h1>
+                <div class="card" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
+                  <div class="card-body p-4 text-center">
+                    <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
+                    <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Check account</button>
+                  </div>
+                </div>
               </div>
-            </div>
-            
-            <div class="card col-lg-3 me-5" style="border:none;background-color:#001233;color:white;border-radius:50px;height:220px;">
-              <div class="card-body p-4">
-                <p class="hero-font-1">Providing Robust Security Measures to Safeguard Your Hard- Earned Savings</p>
-                <button type="button" class="btn  text-black px-3 py-1 ms-4" style="border-radius:10px;background-color:white;">Check account</button>
+
+              <!-- Second Column (Second Card - Slightly Higher) -->
+              <div class="col-lg-3" style="position: relative; top: -70px;">
+                <h1 class="fw-bold" style="color: #001233; margin-bottom: 10px;margin-top:70px;">1.06%</h1>
+                <div class="card" style="border:none; background-color:#001233; color:white; border-radius:30px; height:195px;">
+                  <div class="card-body p-4 text-center">
+                    <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
+                    <button type="button" class="btn text-black px-3 py-1" style="border-radius:10px; background-color:white;">Check account</button>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="card col-lg-3" style="background-color:#EEF2F3;border:none;border-radius:50px;margin-top:70px;">
-              <div class="card-body p-4">
-                <p class="hero-font-1">Providing Robust Security Measures to Safeguard Your Hard- Earned Savings</p>
-                <button type="button" class="btn text-light px-3 py-1 ms-5" style="border-radius:10px;background-color:#001233;">Transactions</button>
+
+              <!-- Third Column (Third Card) -->
+              <div class="col-lg-3">
+                <h1 class="fw-bold" style="color: #001233; margin-bottom: 10px;margin-top:110px;">5.65%</h1>
+                <div class="card" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
+                  <div class="card-body p-4 text-center">
+                    <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
+                    <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Transactions</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
       </section>
+      <!-- Financial section -->
+      <section>
+       <div class="container">
+          <h1 class="hero-font-2 mt-5 pt-3 d-flex justify-content-center" style="color: #001233;">Empowering Your<br><h1 class="hero-font-2" style="color: #001233;text-align-last: center;">Financial Future</h1></h1>
+          <h3 class="d-flex justify-content-center mt-3" style="color: #001233;">Your Trusted Partner in Financial Innovation - Simplify Your Finances<br><h3 class="text" style="color: #001233;text-align-last: center;">Maximize Your Potential, and Secure Your Future Empowering</h3></h3>
+        </div>
+        <div class="container">
+          <div class="row gy-4 mt-3">
+            <div class="col-lg-7 ms-1">
+               <img src="assets/financial1.jpeg" style="width:655px;height:330px;border-radius:20px;" alt="...">
+            </div>
+            <div class="col-lg-3 ms-5">
+                <div class="card" style="background-color:#EEF2F3; border:none; border-radius:30px; height:330px;width:380px;margin-right:80px;">
+                  <div class="card-body p-4 text-center">
+                    <h2 style="color: #001233;text-align:left;">You With Fintech</h2><h2 style="text-align-last:left;">Solutions</h2>
+                    <p class="p" style="text-align:left;">Discover Tailored Fintech Solutions for Every Aspect of Your Financial Journey From Budgeting and Investing to Retirement Planning and Beyond</p>
+                    <button type="button" class="btn text-light px-5 py-2 mt-3" style="border-radius:10px; background-color:#001233;margin-right:50px;">Transactions</button>
+                  </div>
+                </div>
+            </div>
+         </div>
 
+         <div class="row gy-4 mt-3 mb-5">
+            <div class="col-lg-4 ms-1">
+                <div class="card" style="background-color:#EEF2F3; border:none; border-radius:30px; height:340px;width:380px;">
+                  <div class="card-body p-4 text-center">
+                    <h2 style="color: #001233;text-align:left;">You With Fintech<h2 style="text-align-last:left;">Solutions</h2></h2>
+                    <p class="p" style="text-align:left;">Discover Tailored Fintech Solutions for Every Aspect of Your Financial Journey From Budgeting and Investing to Retirement Planning and Beyond</p>
+                    <button type="button" class="btn text-light px-5 py-2 mt-3" style="border-radius:10px; background-color:#001233;margin-right:50px;">Transactions</button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-6 ms-5">
+               <img src="assets/financial2.jpeg" style="width:665px;height:340px;border-radius:20px;" alt="...">
+            </div>
+         </div>      
+       </section>
+       <section id="serve"  style="background-color:#EEF2F3;" class="serve p-5">
+       <div class="container">
+          <div class="row gy-4 mt-3">
+            <div class="col-lg-6">
+               <h1 class="ms-3 mb-5"style="color:#001233" >How FinFuse Work To<br> Serve You Better</h1>
+            </div>
+            <div class="col-lg-6">
+            <h6 class="hero-font-1 text-capitalize p-1 mt-2">We Pave the Way for Tomorrow's Financial Frontier by <br>Seamlessly Integrating Innovation, Accessibility, and Trust,<br> Crafting Solutions That Empower Individuals Crafting Solutions<br> That Empower Individuals.</h6>
+            </div>
+          </div>
+          <div class="row gy-4 mb-5">
+            <div class="col-lg-4 ms-4 me-3">
+                <img src="assets/serve.jpeg" style="width:355px;height:250px;border-radius:20px;opacity: 1;" alt="">
+            </div>
+            <div class="col-lg-5 ms-5">
+               <img src="assets/serve1.jpeg" style="width:590px;height:250px;border-radius:20px;margin-right:80px;" alt="Image">
+            </div>
+        </div>
+       </section>
+       <section>
+       <div class="container">
+          <div class="row gy-4 mt-3">
+            <div class="col-lg-7">
+               <h1 class="hero-font mb-5"style="color:#001233" >Hear! Our Customers<br>Have To Say</h1>
+            </div>
+            <div class="col-lg-5 content ">
+            <h6 class="hero-font-1 text-capitalize fs-6 mt-3">Echoes of Satisfaction: Delving Into the Stories of FinFuse's Satisfied Customers, Each Testimonial a Testament.</h6>
+
+                  <div class="row mb-5">
+                  <button type="button" class="btn text-light px-5 py-2 mt-3" style="border-radius:10px; background-color:#001233;width:200px;margin-left:16px;">Transactions</button>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mb-5 ">
+          <div class="row gy-4">
+            <!-- Customer 1 -->
+            <div class="col-lg-6">
+              <div class="card"  style="border:none;background-color:#EEF2F3;border-radius:25px;" id="Team-member">
+                <div class="card-body d-flex flex-column flex-md-row align-items-center">
+                  <!-- Image -->
+                  <img src="assets/customer-1.png"
+                    class="img-fluid rounded-circle" alt=""
+                    style="width: 100px; height: 100px;">
+                  <!-- Member Info -->
+                  <div class="member-info ms-md-3 text-center text-md-start">
+                    <h3 class="customer" style="color:#001233;">Sarah Parker</h3>
+                   <p class="hero-font-1">FinFuse has transformed the way I handle my finances. Their intuitive budgeting tools helped me save more</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Customer 1 -->
+
+            <!-- Customer 2 -->
+             <div class="col-lg-6">
+              <div class="card" style="border:none;background-color:#EEF2F3;border-radius:25px;height:165px;" id="Team-member">
+                <div class="card-body d-flex flex-column flex-md-row align-items-center">
+                  <!-- Image -->
+                  <img src="assets/customer-2.png"
+                    class="img-fluid rounded-circle" alt=""
+                    style="width: 100px; height: 100px;">
+                  <!-- Member Info -->
+                  <div class="member-info ms-md-3 text-center text-md-start">
+                    <h3 class="customer" style="color:#001233;">Sarah Parker</h3>
+                   <p class="hero-font-1">FinFuse has transformed the way I handle my finances. Their</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Customer 2 -->
+
+            <!-- Customer 3 -->
+             <div class="col-lg-6">
+              <div class="card" style="border:none;background-color:#EEF2F3;border-radius:25px;height:160px;" id="Team-member">
+                <div class="card-body d-flex flex-column flex-md-row align-items-center">
+                  <!-- Image -->
+                  <img src="assets/customer-3.png"
+                    class="img-fluid rounded-circle" alt=""
+                    style="width: 100px; height: 100px;">
+                  <!-- Member Info -->
+                  <div class="member-info ms-md-3 text-center text-md-start">
+                    <h3 class="customer" style="color:#001233;">Sarah Parker</h3>
+                    <p class="hero-font-1">FinFuse has transformed the way I handle my finances. Their</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Customer 3-->
+
+            <!-- Cusromer 4 -->
+             <div class="col-lg-6">
+              <div class="card" style="border:none;background-color:#EEF2F3;border-radius:25px;" id="Team-member">
+                <div class="card-body d-flex flex-column flex-md-row align-items-center">
+                  <!-- Image -->
+                  <img src="assets/customer-4.png"
+                    class="img-fluid rounded-circle" alt=""
+                    style="width: 100px; height: 100px;">
+                  <!-- Member Info -->
+                  <div class="member-info ms-md-3 text-center text-md-start">
+                    <h3 class="customer" style="color:#001233;">Sarah Parker</h3>
+                   <p class="hero-font-1">FinFuse has transformed the way I handle my finances. Their intuitive budgeting tools helped me save more</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Customer 4 -->
+          </div>
+        </div>
+       </section>
     </main>
     <!-- Footer Section Start-->
     <footer id="footer" class="footer">
