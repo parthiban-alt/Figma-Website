@@ -84,16 +84,19 @@
             </div>
           </div>
         </div>
-          <!-- About card section -->
+         <!-- About card section -->
           <div class="container text-center">
             <div class="row d-flex justify-content-center gap-4 mb-5">
               
               <!-- First Column (First Card) -->
               <div class="col-lg-3">
-                <h1 class="fw-bold" style="color: #001233; margin-bottom: 10px;margin-top:110px;">5.65%</h1>
-                <div class="card" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
+                <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:110px;">5.65%</h1>
+                <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
                   <div class="card-body p-4 text-center">
                     <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
+                    <button type="button" class="btn text-black px-3 py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -15px; left: 50%; transform: translateX(-50%);">
+                      account
+                    </button>
                     <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Check account</button>
                   </div>
                 </div>
@@ -101,10 +104,13 @@
 
               <!-- Second Column (Second Card - Slightly Higher) -->
               <div class="col-lg-3" style="position: relative; top: -70px;">
-                <h1 class="fw-bold" style="color: #001233; margin-bottom: 10px;margin-top:70px;">1.06%</h1>
-                <div class="card" style="border:none; background-color:#001233; color:white; border-radius:30px; height:195px;">
+                <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:70px;">1.06%</h1>
+                <div class="card position-relative" style="border:none; background-color:#001233; color:white; border-radius:30px; height:195px;">
                   <div class="card-body p-4 text-center">
                     <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
+                    <button type="button" class="btn px-3 py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -15px; left: 50%; transform: translateX(-50%);">
+                      account
+                    </button>
                     <button type="button" class="btn text-black px-3 py-1" style="border-radius:10px; background-color:white;">Check account</button>
                   </div>
                 </div>
@@ -112,123 +118,128 @@
 
               <!-- Third Column (Third Card) -->
               <div class="col-lg-3">
-                <h1 class="fw-bold" style="color: #001233; margin-bottom: 10px;margin-top:110px;">5.65%</h1>
-                <div class="card" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
+                <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:110px;">5.65%</h1>
+                <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
                   <div class="card-body p-4 text-center">
                     <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
+                    <button type="button" class="btn  px-3 py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -15px; left: 50%; transform: translateX(-50%);">
+                      Transactions
+                    </button>
                     <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Transactions</button>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
+
       </section>
       <section style="background-color:#EEF2F3; padding-bottom: 60px;">
-  <div class="container pt-5">
-    <h1 class="hero-font-2  pt-3 text-center" style="color: #001233;">
-      Joining Forces With Our
-    </h1>
-    <h1 class="hero-font-2 mb-5 text-center" style="color: #001233;">
-      Diverse Network
-    </h1>
-  </div>
+            <div class="container pt-5">
+              <h1 class="hero-font-2  pt-3 text-center" style="color: #001233;">
+                Joining Forces With Our
+              </h1>
+              <h1 class="hero-font-2 mb-5 text-center" style="color: #001233;">
+                Diverse Network
+              </h1>
+            </div>
 
-  <!-- First Row -->
-  <div class="container ">
-    <div class="row row-cols-7 g-2 justify-content-center">
-      <div class="col">
-        <button class="btn px-0 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-    </div>
-  </div>
+            <!-- First Row -->
+            <div class="container ">
+              <div class="row row-cols-7 g-2 justify-content-center">
+                <div class="col">
+                  <button class="btn px-0 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+              </div>
+            </div>
 
-  <!-- Second Row -->
-  <div class="container mt-5 me-3">
-    <div class="row row-cols-7 g-2 justify-content-center">
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-      <div class="col">
-        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
-                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
-          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
+            <!-- Second Row -->
+            <div class="container mt-5 me-5 pe-5">
+              <div class="row row-cols-7 g-2 justify-content-center">
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                          style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+                    <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
 
 
       <!-- Financial section -->
@@ -244,10 +255,10 @@
             </div>
             <div class="col-lg-3 ms-5">
                 <div class="card" style="background-color:#EEF2F3; border:none; border-radius:30px; height:330px;width:380px;margin-right:80px;">
-                  <div class="card-body p-4 text-center">
+                  <div class="card-body p-4 text-center ms-3">
                     <h2 style="color: #001233;text-align:left;">You With Fintech</h2><h2 style="text-align-last:left;">Solutions</h2>
                     <p class="p" style="text-align:left;">Discover Tailored Fintech Solutions for Every Aspect of Your Financial Journey From Budgeting and Investing to Retirement Planning and Beyond</p>
-                    <button type="button" class="btn text-light px-5 py-2 mt-3" style="border-radius:10px; background-color:#001233;margin-right:50px;">Transactions</button>
+                    <button type="button" class="btn text-light px-5 py-2 mt-3 ms-2" style="border-radius:10px; background-color:#001233;margin-right:50px;">Transactions</button>
                   </div>
                 </div>
             </div>
@@ -256,7 +267,7 @@
          <div class="row gy-4 mt-3 mb-5">
             <div class="col-lg-4 ms-1">
                 <div class="card" style="background-color:#EEF2F3; border:none; border-radius:30px; height:340px;width:380px;">
-                  <div class="card-body p-4 text-center">
+                  <div class="card-body p-4 text-center ms-3">
                     <h2 style="color: #001233;text-align:left;">You With Fintech<h2 style="text-align-last:left;">Solutions</h2></h2>
                     <p class="p" style="text-align:left;">Discover Tailored Fintech Solutions for Every Aspect of Your Financial Journey From Budgeting and Investing to Retirement Planning and Beyond</p>
                     <button type="button" class="btn text-light px-5 py-2 mt-3" style="border-radius:10px; background-color:#001233;margin-right:50px;">Transactions</button>
@@ -268,25 +279,39 @@
             </div>
          </div>      
        </section>
-       <section id="serve"  style="background-color:#EEF2F3;" class="serve p-5">
-       <div class="container">
-          <div class="row gy-4 mt-3">
-            <div class="col-lg-6">
-               <h1 class="ms-3 mb-5"style="color:#001233" >How FinFuse Work To<br> Serve You Better</h1>
-            </div>
-            <div class="col-lg-6">
-            <h6 class="hero-font-1 text-capitalize p-1 mt-2">We Pave the Way for Tomorrow's Financial Frontier by <br>Seamlessly Integrating Innovation, Accessibility, and Trust,<br> Crafting Solutions That Empower Individuals Crafting Solutions<br> That Empower Individuals.</h6>
-            </div>
-          </div>
-          <div class="row gy-4 mb-5">
-            <div class="col-lg-4 ms-4 me-3">
-                <img src="assets/serve.jpeg" style="width:355px;height:250px;border-radius:20px;opacity: 1;" alt="">
-            </div>
-            <div class="col-lg-5 ms-5">
-               <img src="assets/serve1.jpeg" style="width:590px;height:250px;border-radius:20px;margin-right:80px;" alt="Image">
-            </div>
+      <!-- Serve section -->
+<section id="serve" style="background-color:#EEF2F3;" class="serve p-5">
+  <div class="container">
+    <div class="row gy-4 mt-3">
+      <div class="col-lg-6">
+        <h1 class="ms-3 mb-5" style="color:#001233">How FinFuse Work To<br> Serve You Better</h1>
+      </div>
+      <div class="col-lg-6">
+        <h6 class="hero-font-1 text-capitalize mt-2">
+          We Pave the Way for Tomorrow's Financial Frontier by <br>Seamlessly Integrating Innovation, Accessibility, and Trust,<br>
+          Crafting Solutions That Empower Individuals Crafting Solutions<br> That Empower Individuals.
+        </h6>
+      </div>
+    </div>
+    <div class="row gy-4 mb-5">
+      <!-- First Image -->
+      <div class="col-lg-4 ms-4 me-5">
+        <img src="assets/serve.jpeg" style="width:390px;height:285px;border-radius:20px;opacity: 1;" alt="">
+       
+      </div>
+      
+      <!-- Second Image with Centered Text -->
+      <div class="col-lg-5 ms-5 position-relative">
+        <img src="assets/serve1.jpeg" style="width:600px;height:290px;border-radius:20px;margin-right:80px;" alt="Image">
+        <!-- Centered Text -->
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-30%, -50%); background: rgba(0, 0, 0, 0.5); color: white; padding: 10px 20px; border-radius: 10px; font-size: 28px;">
+          Image Text is the parthiban
         </div>
-       </section>
+      </div>
+    </div>
+  </div>
+</section>
+
        <section>
        <div class="container">
           <div class="row gy-4 mt-3">
@@ -363,7 +388,7 @@
                   <!-- Image -->
                   <img src="assets/customer-4.png"
                     class="img-fluid rounded-circle" alt=""
-                    style="width: 100px; height: 100px;">
+                    style="width: 130px; height: 90px;">
                   <!-- Member Info -->
                   <div class="member-info ms-md-3 text-center text-md-start">
                     <h3 class="customer" style="color:#001233;">Sarah Parker</h3>
