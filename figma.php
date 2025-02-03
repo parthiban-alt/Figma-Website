@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="figma.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -122,6 +123,114 @@
             </div>
           </div>
       </section>
+      <section style="background-color:#EEF2F3; padding-bottom: 60px;">
+  <div class="container pt-5">
+    <h1 class="hero-font-2  pt-3 text-center" style="color: #001233;">
+      Joining Forces With Our
+    </h1>
+    <h1 class="hero-font-2 mb-5 text-center" style="color: #001233;">
+      Diverse Network
+    </h1>
+  </div>
+
+  <!-- First Row -->
+  <div class="container ">
+    <div class="row row-cols-7 g-2 justify-content-center">
+      <div class="col">
+        <button class="btn px-0 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Row -->
+  <div class="container mt-5 me-3">
+    <div class="row row-cols-7 g-2 justify-content-center">
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
+                style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
+          <i class="bi bi-facebook text-primary fs-5 me-2"></i> Facebook
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
       <!-- Financial section -->
       <section>
        <div class="container">
@@ -304,6 +413,7 @@
             </div>
          </div>      
       </div>
+     
      
     </footer>
     <!-- Footer Section End -->
