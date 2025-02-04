@@ -18,7 +18,7 @@
         <!--navbar-->
          <nav class="navbar navbar-expand-lg">
             <div class="container">
-            <img src="assets/Logo[1].png" class="card-img-top bg-light mt-2" style="border-radius: 10px;padding:10px;width:20%" alt="...">
+            <img src="assets/Logo[1].png" class="card-img-top bg-light mt-2" style="border-radius: 10px;padding:13px;width:15%" alt="...">
                     <!--Navbar icon in this field is modified to button-->
                     <button class="navbar-toggler text-light bg-light" type="button "  data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon "></span></button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -94,9 +94,7 @@
                 <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
                   <div class="card-body p-4 text-center">
                     <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
-                    <button type="button" class="btn text-black px-3 py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -15px; left: 50%; transform: translateX(-50%);">
-                      account
-                    </button>
+                    <button type="button" class="hero-font-1 btn text-black  py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);"> Secure Savings </button>                   
                     <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Check account</button>
                   </div>
                 </div>
@@ -108,9 +106,7 @@
                 <div class="card position-relative" style="border:none; background-color:#001233; color:white; border-radius:30px; height:195px;">
                   <div class="card-body p-4 text-center">
                     <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
-                    <button type="button" class="btn px-3 py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -15px; left: 50%; transform: translateX(-50%);">
-                      account
-                    </button>
+                    <button type="button" class="hero-font-1 btn text-black fs-6  py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);">Instant Access </button>
                     <button type="button" class="btn text-black px-3 py-1" style="border-radius:10px; background-color:white;">Check account</button>
                   </div>
                 </div>
@@ -122,9 +118,7 @@
                 <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
                   <div class="card-body p-4 text-center">
                     <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
-                    <button type="button" class="btn  px-3 py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -15px; left: 50%; transform: translateX(-50%);">
-                      Transactions
-                    </button>
+                    <button type="button" class="hero-font-1 btn text-black fs-6  py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);">Real-time Fraud</button>
                     <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Transactions</button>
                   </div>
                 </div>
@@ -279,39 +273,75 @@
             </div>
          </div>      
        </section>
-      <!-- Serve section -->
-<section id="serve" style="background-color:#EEF2F3;" class="serve p-5">
-  <div class="container">
-    <div class="row gy-4 mt-3">
-      <div class="col-lg-6">
-        <h1 class="ms-3 mb-5" style="color:#001233">How FinFuse Work To<br> Serve You Better</h1>
-      </div>
-      <div class="col-lg-6">
-        <h6 class="hero-font-1 text-capitalize mt-2">
-          We Pave the Way for Tomorrow's Financial Frontier by <br>Seamlessly Integrating Innovation, Accessibility, and Trust,<br>
-          Crafting Solutions That Empower Individuals Crafting Solutions<br> That Empower Individuals.
-        </h6>
-      </div>
-    </div>
-    <div class="row gy-4 mb-5">
-      <!-- First Image -->
-      <div class="col-lg-4 ms-4 me-5">
-        <img src="assets/serve.jpeg" style="width:390px;height:285px;border-radius:20px;opacity: 1;" alt="">
-       
-      </div>
-      
-      <!-- Second Image with Centered Text -->
-      <div class="col-lg-5 ms-5 position-relative">
-        <img src="assets/serve1.jpeg" style="width:600px;height:290px;border-radius:20px;margin-right:80px;" alt="Image">
-        <!-- Centered Text -->
-        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-30%, -50%); background: rgba(0, 0, 0, 0.5); color: white; padding: 10px 20px; border-radius: 10px; font-size: 28px;">
-          Image Text is the parthiban
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
+            <!-- Serve Section -->
+            <section id="serve" style="background-color:#EEF2F3;" class="serve">
+              <div class="container p-5">
+                <div class="row gy-4 mt-3">
+                  <div class="col-lg-5">
+                    <h1 class="ms-4 mb-5" style="color:#001233">
+                      How FinFuse Work To<br> Serve You Better
+                    </h1>
+                  </div>
+                  <div class="col-lg-6 me-2 ms-5">
+                    <h6 class="hero-font-1 text-capitalize mt-2">
+                      We Pave the Way for Tomorrow's Financial Frontier by <br>Seamlessly Integrating Innovation, Accessibility, and Trust,<br>
+                      Crafting Solutions That Empower Individuals.
+                    </h6>
+                  </div>
+                </div>
+
+                <!-- Image Row -->
+                <div class="row gy-4 mb-5">
+                  <!-- First Image with Text Overlay & Small Images Inside -->
+                  <div class="col-lg-4 ms-4 me-5 position-relative">
+                    <!-- Main Image -->
+                    <img src="assets/serve.jpeg" style="width:390px;height:285px;border-radius:30px;opacity:0.9;position:relative;" alt="">
+
+                    <!-- Overlay in Front -->
+                    <div style="position: absolute; top: 0; left: 12px; width:390px;height:285px; background: rgba(0, 0, 0, 0.4); border-radius: 30px;"></div>
+
+                    <!-- Overlay Text -->
+                    <div style="position: absolute; top: 10px; left: 20px; color: white;">
+                      <h1 class="img ps-3" style="color:yellow;font-size: 60px;">920+</h1>
+                      <span class="text ps-3" style="font-size: 15px; font-weight: normal;">Project finish with superbly</span>
+                    </div>
+
+                    <!-- Small Images Inside the First Image at Bottom in + Symbol -->
+                    <div class="position-absolute d-flex justify-content-between" style="bottom: 35px; left: 35%; transform: translateX(-50%);">
+                      <img src="assets/small1.png" style="width: 50px; height: 45px; border-radius: 50px; margin-right: -10px;" alt="Small Image 1">
+                      <img src="assets/small2.png" style="width: 50px; height: 45px; border-radius: 50px; margin-right: -10px;" alt="Small Image 2">
+                      <img src="assets/small3.png" style="width: 50px; height: 45px; border-radius: 50px; margin-right: -10px;" alt="Small Image 3">
+                      <img src="assets/small4.png" style="width: 50px; height: 45px; border-radius: 50px;" alt="Small Image 4">
+                    </div>
+
+                    <!-- Plus Symbol at the End -->
+                    <div class="position-absolute" style="bottom: 5px; right: 95px; color: yellow; font-size: 80px; font-weight: bold;">+</div>
+                  </div>
+
+                  <!-- Second Image with Overlay & Centered Text -->
+                  <div class="col-lg-5 ms-5 position-relative d-flex align-items-center justify-content-center">
+                    <div class="position-relative w-100">
+                      <!-- Image -->
+                      <img src="assets/serve-1.jpeg" 
+                          style="width: 570px; height:290px; border-radius:30px; opacity:0.9;" 
+                          alt="Image">
+
+                      <!-- Overlay in Front -->
+                      <div style="position: absolute; top: 0; left: 0; width:570px; height: 100%; background: rgba(0, 0, 0, 0.4); border-radius: 30px;"></div>
+
+                      <!-- Centered Text -->
+                      <div class="display-6 ms-5 fst-bold" 
+                          style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; white-space: nowrap;">
+                        How we work
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+      <!-- Customer Section -->
        <section>
        <div class="container">
           <div class="row gy-4 mt-3">
@@ -386,9 +416,9 @@
               <div class="card" style="border:none;background-color:#EEF2F3;border-radius:25px;" id="Team-member">
                 <div class="card-body d-flex flex-column flex-md-row align-items-center">
                   <!-- Image -->
-                  <img src="assets/customer-4.png"
+                  <img src="assets/customer-5.png"
                     class="img-fluid rounded-circle" alt=""
-                    style="width: 130px; height: 90px;">
+                    style="width: 100px; height: 100px;">
                   <!-- Member Info -->
                   <div class="member-info ms-md-3 text-center text-md-start">
                     <h3 class="customer" style="color:#001233;">Sarah Parker</h3>
