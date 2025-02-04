@@ -430,9 +430,127 @@
           </div>
         </div>
        </section>
+           <!-- Frequenly Section -->
+       <section>
+       <div class="container mb-4">
+          <h1 class="hero-font-2 mt-5 pt-3 d-flex justify-content-center" style="color: #001233;">Frequently Asked Questions</h1>
+          <h3 class="display-6 d-flex justify-content-center mt-3" style="color: #001233;text-align-last:center;font-size:28px;">Navigating Common Queries to Ensure a Seamless<br>Experience with FinFuse</h3>
+       </div>
+       <div class="container ">
+          <div class="row mt-5">
+             <div class="col-lg-6">
+             <div class="accordion " id="accordionExample">
+                  <div class="accordion-item" style="background-color:#001233;">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           <div class="hero-font-5">How do I open an account with FinFuse?</div>
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show"  aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="hero-font-4 text-light">Opening an account with FinFuse is quick and easy. Simply click on the Open an Account' button, follow the prompts, and provide the required information. We prioritize your security throughout</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item" style="background-color:#001233;">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <div class="hero-font-5">What makes FinFuse different from other banks?</div>
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                       <div class="hero-font-4 text-light">Opening an account with FinFuse is quick and easy. Simply click on the Open an Account' button, follow the prompts, and provide the required information. We prioritize your security throughout</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item" style="background-color:#001233;">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           <div class="hero-font-5">What makes FinFuse different from other banks?</div>
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                       <div class="hero-font-4 text-light">Opening an account with FinFuse is quick and easy. Simply click on the Open an Account' button, follow the prompts, and provide the required information. We prioritize your security throughout</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item" style="background-color:#001233;">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                           <div class="hero-font-5">What makes FinFuse different from other banks?</div>
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="hero-font-4 text-light">Opening an account with FinFuse is quick and easy. Simply click on the Open an Account' button, follow the prompts, and provide the required information. We prioritize your security throughout</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+             
+
+             <div class="col-lg-6">
+             <div class="accordion " id="accordionExample">
+                  <div class="accordion-item" style="background-color:#001233;">
+                    <h2 class="accordion-header" id="headingFive">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                            <div class="hero-font-5"> What makes FinFuse different from other banks?</div>
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                       <div class="hero-font-4 text-light">Opening an account with FinFuse is quick and easy. Simply click on the Open an Account' button, follow the prompts, and provide the required information. We prioritize your security throughout</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item" style="background-color:#001233;">
+                    <h2 class="accordion-header" id="headingSix">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                             <div class="hero-font-5">What makes FinFuse different from other banks?</div>
+                      </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                       <div class="hero-font-4 text-light">Opening an account with FinFuse is quick and easy. Simply click on the Open an Account' button, follow the prompts, and provide the required information. We prioritize your security throughout</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item" style="background-color:#001233;">
+                    <h2 class="accordion-header" id="headingSeven">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <div class="hero-font-5">What makes FinFuse different from other banks?</div>
+                      </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="hero-font-4 text-light">Opening an account with FinFuse is quick and easy. Simply click on the Open an Account' button, follow the prompts, and provide the required information. We prioritize your security throughout</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item" style="background-color:#001233;">
+                    <h2 class="accordion-header" id="headingEight">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                             <div class="hero-font-5">What makes FinFuse different from other banks?</div>
+                      </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="hero-font-4 text-light">Opening an account with FinFuse is quick and easy. Simply click on the Open an Account' button, follow the prompts, and provide the required information. We prioritize your security throughout</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+          </div>
+       </div>
+        
+       </section>
     </main>
     <!-- Footer Section Start-->
-    <footer id="footer" class="footer">
+    <footer id="footer" class="footer mt-3">
       <div class="container pt-5">
         <div class="row gy-5">
           <div class="col-lg-7 col-md-12 footer-about ">
