@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -187,7 +187,7 @@
             </div>
 
             <!-- Second Row -->
-            <div class="container mt-5 me-5 pe-5">
+            <div class="container mt-5">
               <div class="row row-cols-7 g-2 justify-content-center">
                 <div class="col">
                   <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
