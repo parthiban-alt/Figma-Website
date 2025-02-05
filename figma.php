@@ -19,7 +19,7 @@
          <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <div class="logo-img">
-                    <img src="assets/Logo[1].png"  class="card-img-top bg-light mt-2" style="padding:10px;border-radius:10px" alt="...">
+                    <img src="assets/Logo[1].png"  class="card-img-top bg-light mt-2" style="padding:5px;border-radius:10px;" alt="...">
                 </div>
                     <!--Navbar icon in this field is modified to button-->
                     <button class="navbar-toggler text-light bg-light" type="button "  data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon "></span></button>
@@ -44,11 +44,11 @@
     </header>
   <main>
     <!--This is home section-->
-    <section id="hero" class="hero section ">
+    <section id="hero" class="hero">
         <div class="container">
             <div class="row ">
               <div class="col-lg-6 order-2 order-lg-1  ">
-              <button type="button" class="btn text-light px-1 py-1" style="border:1px solid white;width: 289px;margin-top:75px;">#1 Top Fintech Banking Excellence</button>
+              <button type="button" class="button-1 btn text-light px-1 py-1" style="border:1px solid white;">#1 Top Fintech Banking Excellence</button>
                 <h1 class="hero-font text-light pt-4">Redefining</h1> <h1 class="hero-font" style="color:yellow;">business realities with</h1> <h1 class="hero-font text-light">ERP Solutions.</h1>
                 <h6 class="hero-font-1 text-light text-capitalize fs-6 pt-2">Explore FinFuse Today. Your Finances: Discover FinFuse's Fintech Revolution, Transforming Banking Experiences One Click at a Time</h6>
                 <div class="d-flex ">
@@ -57,79 +57,80 @@
 
                 </div>
               </div>
-              <div class="col-lg-6 order-1 order-lg-2 hero-img.png my-4 " >
+              <div class="col-lg-6 order-1 order-lg-2 hero-img.png my-4 " id="hero-img" >
                 <!--first img-->
+             
                 <img src="assets/heroimg.png" class="card-img-top" alt="...">
               </div>
             </div>
           </div>
     </section>
-    <!-- About section start -->
-    <section id="about" class="about section my-3 ">
-        <div class="container">
-          <div class="row gy-4 mt-3">
-            <div class="col-lg-6">
-               <h1 class="hero-font mb-5"style="color:#001233" >Financial Evolution<br>The FinFuse Story</h1>
-            </div>
-            <div class="col-lg-6 content ">
-            <h6 class="hero-font-1 text-capitalize fs-6 mt-3">We Pave the Way for Tomorrow's Financial Frontier by Seamlessly Integrating Innovation, Accessibility, and Trust, Crafting Solutions That Empower Individuals</h6>
+          <!-- About section start -->
+        <section id="about" class="about section my-3">
+          <div class="container">
+            <div class="row gy-4 mt-3 align-items-center">
+              <!-- Left Column - Title -->
+              <div class="col-lg-6">
+                <h1 class="hero-font" style="color:#001233">Financial Evolution<br>The FinFuse Story</h1>
+              </div>
 
-                  <div class="row mb-5">
-                  <div class="col-lg-1 order-2 order-lg-1 " >
-                      <i class="fa-solid fa-arrow-right text-light p-1" style="background-color:#001233;border-radius:50%"></i>
-                  </div>
-                    <div class="col-lg-11 order-2 " >
-                       <h5>Discover more</h5>
-                    </div>
-                  
-                  </div>
+              <!-- Right Column - Description & Button -->
+              <div class="col-lg-6 content">
+                <h6 class="hero-font-1 text-capitalize fs-6 mt-3">
+                  We Pave the Way for Tomorrow's Financial Frontier by Seamlessly Integrating Innovation, Accessibility, and Trust, Crafting Solutions That Empower Individuals.
+                </h6>
+
+                <!-- Flexbox for Icon and Text (Corrected) -->
+                <div class="d-flex align-items-center mt-3">
+                  <i class="fa-solid fa-arrow-right text-light p-2 icon-bg"></i>
+                  <h5 class="ms-3 mb-0">Discover more</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+              <!-- About card section -->
+        <div class="container text-center">
+          <div class="row d-flex justify-content-center gap-4 mb-5">
+            
+            <!-- First Column (First Card) -->
+            <div class="col-lg-3">
+              <h1 class="card-text fw-bold mb-4" style="color: #001233; margin-top:110px; margin-bottom: 10px;">5.65%</h1>
+              <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
+                <div class="card-body p-4 text-center">
+                  <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
+                  <button type="button" class="hero-font-1 btn text-black py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);"> Secure Savings </button>
+                  <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Check account</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Column (Second Card - Slightly Higher) -->
+            <div class="col-lg-3" style="position: relative; top: -70px;">
+              <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:70px;">1.06%</h1>
+              <div class="card position-relative" style="border:none; background-color:#001233; color:white; border-radius:30px; height:195px;">
+                <div class="card-body p-4 text-center">
+                  <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
+                  <button type="button" class="hero-font-1 btn text-black fs-6 py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);">Instant Access</button>
+                  <button type="button" class="btn text-black px-3 py-1" style="border-radius:10px; background-color:white;">Check account</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Third Column (Third Card) -->
+            <div class="col-lg-3">
+              <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:110px;">5.65%</h1>
+              <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
+                <div class="card-body p-4 text-center">
+                  <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
+                  <button type="button" class="hero-font-1 btn text-black fs-6 py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);">Real-time Fraud</button>
+                  <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Transactions</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-         <!-- About card section -->
-          <div class="container text-center">
-            <div class="row d-flex justify-content-center gap-4 mb-5">
-              
-              <!-- First Column (First Card) -->
-                  <div class="col-lg-3">
-                    <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:110px;">5.65%</h1>
-                    <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
-                      <div class="card-body p-4 text-center">
-                        <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
-                        <button type="button" class="hero-font-1 btn text-black  py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);"> Secure Savings </button>                   
-                        <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Check account</button>
-                      </div>
-                    </div>
-                  </div>
-               
-              <!-- Second Column (Second Card - Slightly Higher) -->
-                    <div class="col-lg-3" style="position: relative; top: -70px;">
-                      <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:70px;">1.06%</h1>
-                      <div class="card position-relative" style="border:none; background-color:#001233; color:white; border-radius:30px; height:195px;">
-                        <div class="card-body p-4 text-center">
-                          <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
-                          <button type="button" class="hero-font-1 btn text-black fs-6  py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);">Instant Access </button>
-                          <button type="button" class="btn text-black px-3 py-1" style="border-radius:10px; background-color:white;">Check account</button>
-                        </div>
-                      </div>
-                    </div>
-                  
-              <!-- Third Column (Third Card) -->
-                    <div class="col-lg-3">
-                      <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:110px;">5.65%</h1>
-                      <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
-                        <div class="card-body p-4 text-center">
-                          <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
-                          <button type="button" class="hero-font-1 btn text-black fs-6  py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);">Real-time Fraud</button>
-                          <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Transactions</button>
-                        </div>
-                      </div>
-                    </div>
 
-            </div>
-          </div>
-
-      </section>
       <section  class="facebook" style="background-color:#EEF2F3; padding-bottom: 60px;">
             <div class="container pt-5">
               <h1 class="hero-font-2  pt-3 text-center" style="color: #001233;">
@@ -239,18 +240,18 @@
 
 
       <!-- Financial section -->
-      <section>
+      <section class="financial">
        <div class="container">
           <h1 class="hero-font-2 mt-5 pt-3 d-flex justify-content-center" style="color: #001233;">Empowering Your<br><h1 class="hero-font-2" style="color: #001233;text-align-last: center;">Financial Future</h1></h1>
-          <h3 class="d-flex justify-content-center mt-3" style="color: #001233;">Your Trusted Partner in Financial Innovation - Simplify Your Finances<br><h3 class="text" style="color: #001233;text-align-last: center;">Maximize Your Potential, and Secure Your Future Empowering</h3></h3>
+          <h3 class="text d-flex justify-content-center mt-3" style="color: #001233;">Your Trusted Partner in Financial Innovation - Simplify Your Finances<br><h3 class="text" style="color: #001233;text-align-last: center;">Maximize Your Potential, and Secure Your Future Empowering</h3></h3>
         </div>
         <div class="container">
           <div class="row gy-4 mt-3">
             <div class="col-lg-7 ms-1">
-               <img src="assets/financial1.jpeg" class="financial-img" style="width:655px;height:330px;border-radius:20px;" alt="...">
+               <img src="assets/financial1.jpeg" class="financial-img" alt="...">
             </div>
-            <div class="col-lg-3 ms-5">
-                <div class="card" style="background-color:#EEF2F3; border:none; border-radius:30px; height:330px;width:380px;margin-right:80px;">
+            <div class="col-lg-3">
+                <div class="card" >
                   <div class="card-body p-4 text-center ms-3">
                     <h2 style="color: #001233;text-align:left;">You With Fintech</h2><h2 style="text-align-last:left;">Solutions</h2>
                     <p class="p" style="text-align:left;">Discover Tailored Fintech Solutions for Every Aspect of Your Financial Journey From Budgeting and Investing to Retirement Planning and Beyond</p>
@@ -262,7 +263,7 @@
 
          <div class="row gy-4 mt-3 mb-5">
             <div class="col-lg-4 ms-1">
-                <div class="card" style="background-color:#EEF2F3; border:none; border-radius:30px; height:340px;width:380px;">
+                <div class="card-1">
                   <div class="card-body p-4 text-center ms-3">
                     <h2 style="color: #001233;text-align:left;">You With Fintech<h2 style="text-align-last:left;">Solutions</h2></h2>
                     <p class="p" style="text-align:left;">Discover Tailored Fintech Solutions for Every Aspect of Your Financial Journey From Budgeting and Investing to Retirement Planning and Beyond</p>
@@ -270,23 +271,23 @@
                   </div>
                 </div>
             </div>
-            <div class="col-lg-6 ms-5">
-               <img src="assets/financial2.jpeg" style="width:665px;height:340px;border-radius:20px;" alt="...">
+            <div class="col-lg-5 ">
+               <img src="assets/financial2.jpeg" class="financial2-img" alt="...">
             </div>
          </div>      
        </section>
 
             <!-- Serve Section -->
             <section id="serve" style="background-color:#EEF2F3;" class="serve">
-              <div class="container p-5">
+              <div class="container">
                 <div class="row gy-4 mt-3">
                   <div class="col-lg-5">
-                    <h1 class="ms-4 mb-5" style="color:#001233">
+                    <h1 class="text ms-4" style="color:#001233">
                       How FinFuse Work To<br> Serve You Better
                     </h1>
                   </div>
-                  <div class="col-lg-6 me-2 ms-5">
-                    <h6 class="hero-font-1 text-capitalize mt-2">
+                  <div class="col-lg-6  ms-4">
+                    <h6 class="serve-font hero-font-1 text-capitalize">
                       We Pave the Way for Tomorrow's Financial Frontier by <br>Seamlessly Integrating Innovation, Accessibility, and Trust,<br>
                       Crafting Solutions That Empower Individuals.
                     </h6>
@@ -298,7 +299,7 @@
                   <!-- First Image with Text Overlay & Small Images Inside -->
                   <div class="col-lg-4 ms-4 me-5 position-relative">
                     <!-- Main Image -->
-                    <img src="assets/serve.jpeg" style="width:390px;height:285px;border-radius:30px;opacity:0.9;position:relative;" alt="">
+                    <img src="assets/serve.jpeg" class="serve-img" style="position:relative;" alt="">
 
                     <!-- Overlay in Front -->
                     <div style="position: absolute; top: 0; left: 12px; width:390px;height:285px; background: rgba(0, 0, 0, 0.4); border-radius: 30px;"></div>
@@ -325,7 +326,7 @@
                   <div class="col-lg-5 ms-5 position-relative d-flex align-items-center justify-content-center">
                     <div class="position-relative w-100">
                       <!-- Image -->
-                      <img src="assets/serve-1.jpeg" 
+                      <img src="assets/serve-1.jpeg"
                           style="width: 570px; height:290px; border-radius:30px; opacity:0.9;" 
                           alt="Image">
 
@@ -344,16 +345,16 @@
             </section>
 
       <!-- Customer Section -->
-       <section>
+       <section class="customer">
        <div class="container">
           <div class="row gy-4 mt-3">
             <div class="col-lg-7">
-               <h1 class="hero-font mb-5"style="color:#001233" >Hear! Our Customers<br>Have To Say</h1>
+               <h1 class="hero-font"style="color:#001233" >Hear! Our Customers<br>Have To Say</h1>
             </div>
             <div class="col-lg-5 content ">
             <h6 class="hero-font-1 text-capitalize fs-6 mt-3">Echoes of Satisfaction: Delving Into the Stories of FinFuse's Satisfied Customers, Each Testimonial a Testament.</h6>
 
-                  <div class="row mb-5">
+                  <div class="button row mb-5">
                   <button type="button" class="btn text-light px-5 py-2 mt-3" style="border-radius:10px; background-color:#001233;width:200px;margin-left:16px;">Transactions</button>
                   </div>
             </div>
@@ -381,7 +382,7 @@
 
             <!-- Customer 2 -->
              <div class="col-lg-6">
-              <div class="card" style="border:none;background-color:#EEF2F3;border-radius:25px;height:165px;" id="Team-member">
+              <div class="card-2" id="Team-member">
                 <div class="card-body d-flex flex-column flex-md-row align-items-center">
                   <!-- Image -->
                   <img src="assets/customer-2.png"
@@ -398,7 +399,7 @@
 
             <!-- Customer 3 -->
              <div class="col-lg-6">
-              <div class="card" style="border:none;background-color:#EEF2F3;border-radius:25px;height:160px;" id="Team-member">
+              <div class="card-3" id="Team-member">
                 <div class="card-body d-flex flex-column flex-md-row align-items-center">
                   <!-- Image -->
                   <img src="assets/customer-3.png"
@@ -433,10 +434,10 @@
         </div>
        </section>
            <!-- Frequenly Section -->
-       <section>
+       <section class="frequenly">
        <div class="container mb-4">
           <h1 class="hero-font-2 mt-5 pt-3 d-flex justify-content-center" style="color: #001233;">Frequently Asked Questions</h1>
-          <h3 class="display-6 d-flex justify-content-center mt-3" style="color: #001233;text-align-last:center;font-size:28px;">Navigating Common Queries to Ensure a Seamless<br>Experience with FinFuse</h3>
+          <h3 class="display-6 d-flex justify-content-center mt-3">Navigating Common Queries to Ensure a Seamless<br>Experience with FinFuse</h3>
        </div>
        <div class="container ">
           <div class="row mt-5">
@@ -494,7 +495,7 @@
              </div>
              
 
-             <div class="col-lg-6">
+             <div class="frequenly-accordian col-lg-6">
              <div class="accordion " id="accordionExample">
                   <div class="accordion-item" style="background-color:#001233;">
                     <h2 class="accordion-header" id="headingFive">
@@ -574,7 +575,7 @@
           </div>
          </div>         
       </div>
-        <div class="container pb-4">
+        <div class="container">
           <hr class="text-light">
           <div class="row">
             <div class="col-lg-6 col-md-12 text-light ">

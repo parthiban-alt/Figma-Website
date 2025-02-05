@@ -38,116 +38,215 @@
     font-style: normal;
 
   }
- /* Responsive screen code */
- @media screen and (min-width: 601px) and (max-width: 1100px) {
-  /* logo */
-  .logo-img {
-    border-radius: 10px;
-    width: 60px;
+  .icon-bg {
+    background-color: #001233;
+    border-radius: 50%;
+    width: 32px;  /* Adjust size */
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
- 
-}
 
+  /* On screens that are 1440px or less, set the background color to blue */
+      @media screen and (max-width: 1440px) {
+        /* Navbar */
+        .navbar .logo-img{
+          width:300px;
+          height:auto;
+        }
+        /* Hero Section */
+        .hero .button-1{
+          margin-top:75px;
+          width: 289px;
+        }
+        /* Financial section */
+          .financial .financial-img{
+            width:630px;
+            height:330px;
+            border-radius:20px;
+          }
+          .financial .card{
+            background-color:#EEF2F3;
+            border:none;
+            border-radius:30px;
+            height:330px;
+            width:380px;
+            margin-right:80px;
+           
+          }
+          .financial .card-1{
+            background-color:#EEF2F3;
+            border:none;
+            border-radius:30px;
+            height:340px;
+            width:350px;
+            
+          }
+          .financial .financial2-img{
+            border-radius:20px;
+            height:340px;
+            width:635px;
+          }
+          /* Serve section */
+          .serve{
+            padding-bottom: 30px;
+          }
+          .serve .serve-font{
+            margin-top:10px;
+          }
+          .serve .serve-img{
+            width:390px;
+            height:285px;
+            border-radius:30px;
+            opacity:0.9;
+          }
+          /* Customer section */
+          .customer .card-2{
+            border:none;
+            background-color:#EEF2F3;
+            border-radius:25px;
+            height:165px;
+            padding-left: 20px;
+            padding-top: 30px;
+          }
+          .customer .card-3{
+            border:none;
+            background-color:#EEF2F3;
+            border-radius:25px;
+            height:160px;
+            padding-left: 20px;
+            padding-top: 30px;
+          }
+          /* Frequenly section */
+          .frequenly .display-6{
+            color: #001233;
+            text-align-last:center;
+            font-size:28px;
+          }
+    
+      }
+
+
+/* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
-  .logo-img {
-    width: 250px;
-    border-radius: 30px;
-  }
+      /* Hero Section */
+      .hero .hero-font{
+        font-size: 30px;
+      }
+      .hero{
+        padding-bottom: 20px;
+        padding-left: 20px;
+      }
+      .hero #hero-img{
+        padding-top:10px;
+        padding-bottom: 0;
+      }
+      .hero .button-1{
+        margin-top:15px;
+      }
+     
+      /* Navbar */
+      .navbar .logo-img{
+              width: 200px;
+            
+      }
+      /* About section */
+      .about .hero-font{
+        font-size: 30px;
+      }
+      .about{
+          padding-left: 10px;
+      }
+      .about .content{
+        margin-top:0;
+      }
+      .about .d-flex {
+        justify-content: left; /* Center icon and text */
+      }
+    
+      /* Facebook section */
+      .facebook .hero-font-2{
+        font-size: 30px;
+      }
 
-  
-  @media (max-width: 1200px) { /* For large tablets */
-    .facebook .row-cols-7 {
-        flex-wrap: wrap;
+      /* Financial section */
+      .financial .hero-font-2{
+          font-size: 30px;
+      }
+      .financial .text{
+        font-size: 15px;
+        text-align-last: left;
+      }
+      .financial .financial-img{
+        width:100%;
+        height:auto;
+        border-radius:20px;
+      }
+      .financial .card{
+        background-color:#EEF2F3;
+        border:none;
+        border-radius:30px;
+        width:100%;
+        height:auto;
+      }
+      .financial .card-1{
+        background-color:#EEF2F3;
+        border:none;
+        border-radius:30px;
+        width:100%;
+        height:auto;
+      }
+      .financial .financial2-img{
+        width:100%;
+        height:auto;
+        border-radius:20px;
+      }
+
+      /* Serve section */
+      .serve .text{
+        font-size:30px;
+      }
+      /* Customer Section */
+      .customer .hero-font{
+        font-size: 30px;
+      }
+      .customer .button{
         justify-content: center;
-    }
-    .facebook .col {
-        flex: 0 0 calc(100% / 4 - 10px); /* 4 columns per row */
-        max-width: calc(100% / 4 - 10px);
-    }
-}
+      }
+      .customer .card-2{
+        border:none;
+        background-color:#EEF2F3;
+        border-radius:25px;
+        height:255px;
+        padding-left: 20px;
+        padding-top: 35px;
+      }
+      .customer .card-3{
+        border:none;
+        background-color:#EEF2F3;
+        border-radius:25px;
+        height:255px;
+        padding-left: 20px;
+        padding-top: 35px;
+      }
+      /* Frequenly Section */
+      .frequenly .hero-font-2{
+        font-size: 30px;
+        margin-left: 10px;
+      }
+      .frequenly .display-6{
+        color: #001233;
+        text-align-last:center;
+        font-size:18px;
+        margin-left: 15px;
+      }
+      .frequenly .frequenly-accordian{
+        margin-top: 20px;
+      }
+      .footer .hero-font-2{
+        font-size: 30px;
+      }
+        
 
-@media (max-width: 992px) { /* For tablets */
-  .facebook .col {
-        flex: 0 0 calc(100% / 3 - 10px); /* 3 columns per row */
-        max-width: calc(100% / 3 - 10px);
-    }
 }
-
-@media (max-width: 768px) { /* For mobile devices */
-    .facebook .col {
-        flex: 0 0 calc(100% / 2 - 10px); /* 2 columns per row */
-        max-width: calc(100% / 2 - 10px);
-    }
-}
-
-@media (max-width: 576px) { /* For small screens */
-   .facebook  .col {
-        flex: 0 0 100%; /* 1 column per row */
-        max-width: 100%;
-    }
-    .facebook .hero-font-2{
-    font-size: 24px;
-   }
-}
-
-   
-}
-@media (max-width: 992px) { /* For tablets and below */
-  .about .row {
-      text-align: center;
-  }
-  .about .col-lg-6 {
-      width: 100%;
-  }
-  .about .content {
-      margin-top: 20px;
-  }
-  .about .row .col-lg-1 {
-      display: none; /* Hide the arrow icon on smaller screens */
-  }
-  .about .row .col-lg-11 {
-      text-align: center;
-  }
-  .about .row .col-lg-3 {
-      width: 100%;
-      margin-bottom: 0;
-      padding-bottom: 0;
-  }
-  .about .col-lg-3 {
-      position: relative;
-      top: 0 !important; /* Reset the negative margin */
-  }
-  .about .card {
-      width: 100%;
-      height: auto;
-
-  }
-}
-
-@media (max-width: 768px) { /* For mobile screens */
-  .about .container {
-      padding: 0 15px;
-      margin: 0 0;
-  }
-  .about .hero-font {
-      font-size: 24px;
-  }
-  .about .hero-font-1 {
-      font-size: 14px;
-  }
-  .about .col-lg-3 {
-      width: 100%;
-  }
-  .about .card {
-      padding: 15px;
-      height: auto;
-  }
-  .about .card-body p {
-      font-size: 14px;
-  }
-  .about button {
-      font-size: 14px;
-      padding: 5px 10px;
-  }
-}
-
