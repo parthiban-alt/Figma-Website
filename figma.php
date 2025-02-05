@@ -119,7 +119,7 @@
 
             <!-- Third Column (Third Card) -->
             <div class="col-lg-3">
-              <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:110px;">5.65%</h1>
+              <h1 class="fw-bold mb-4" id="card-three" style="color: #001233; margin-bottom: 10px; margin-top:110px;">5.65%</h1>
               <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
                 <div class="card-body p-4 text-center">
                   <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
@@ -282,11 +282,11 @@
               <div class="container">
                 <div class="row gy-4 mt-3">
                   <div class="col-lg-5">
-                    <h1 class="text ms-4" style="color:#001233">
+                    <h1 class="text ms-2" style="color:#001233">
                       How FinFuse Work To<br> Serve You Better
                     </h1>
                   </div>
-                  <div class="col-lg-6  ms-4">
+                  <div class="col-lg-6  ms-2">
                     <h6 class="serve-font hero-font-1 text-capitalize">
                       We Pave the Way for Tomorrow's Financial Frontier by <br>Seamlessly Integrating Innovation, Accessibility, and Trust,<br>
                       Crafting Solutions That Empower Individuals.
@@ -297,12 +297,12 @@
                 <!-- Image Row -->
                 <div class="row gy-4 mb-5">
                   <!-- First Image with Text Overlay & Small Images Inside -->
-                  <div class="col-lg-4 ms-4 me-5 position-relative">
+                  <div class="col-lg-4  position-relative">
                     <!-- Main Image -->
-                    <img src="assets/serve.jpeg" class="serve-img" style="position:relative;" alt="">
+                    <img src="assets/serve.jpeg" class="serve-img" alt="">
 
                     <!-- Overlay in Front -->
-                    <div style="position: absolute; top: 0; left: 12px; width:390px;height:285px; background: rgba(0, 0, 0, 0.4); border-radius: 30px;"></div>
+                    <div class="back-first" ></div>
 
                     <!-- Overlay Text -->
                     <div style="position: absolute; top: 10px; left: 20px; color: white;">
@@ -323,18 +323,17 @@
                   </div>
 
                   <!-- Second Image with Overlay & Centered Text -->
-                  <div class="col-lg-5 ms-5 position-relative d-flex align-items-center justify-content-center">
+                  <div class=" col-lg-5 position-relative d-flex align-items-center justify-content-center" id="serve-class">
                     <div class="position-relative w-100">
                       <!-- Image -->
-                      <img src="assets/serve-1.jpeg"
-                          style="width: 570px; height:290px; border-radius:30px; opacity:0.9;" 
+                      <img src="assets/serve-1.jpeg" class="serve-1-img"
                           alt="Image">
 
                       <!-- Overlay in Front -->
-                      <div style="position: absolute; top: 0; left: 0; width:570px; height: 100%; background: rgba(0, 0, 0, 0.4); border-radius: 30px;"></div>
+                      <div class="back" ></div>
 
                       <!-- Centered Text -->
-                      <div class="display-6 ms-5 fst-bold" 
+                      <div class=" display-6 fst-bold" id="font"
                           style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; white-space: nowrap;">
                         How we work
                       </div> 
@@ -571,7 +570,7 @@
             </div>
           </div> 
           <div class="col-lg-5 col-md-12 mt-0 pt-0 me-0">
-              <img src="assets/footer-image.png" class="card-img-top" style="width:100%" alt="...">
+              <img src="assets/footer-image.png" class="card-img-top" style="width:100%; height:auto;" alt="...">
           </div>
          </div>         
       </div>

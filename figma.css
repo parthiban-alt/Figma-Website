@@ -55,11 +55,16 @@
           width:300px;
           height:auto;
         }
+        .navbar{
+          padding-top:0;
+        }
         /* Hero Section */
         .hero .button-1{
           margin-top:75px;
           width: 289px;
         }
+       
+      
         /* Financial section */
           .financial .financial-img{
             width:630px;
@@ -96,11 +101,57 @@
             margin-top:10px;
           }
           .serve .serve-img{
+            width:379px;
+            height:289px;
+            border-radius:30px;
+            opacity:0.9;
+            position:relative;
+           
+          }
+            /* background */
+            .serve .serve-img-back{
+            position: absolute;
+            top: 0;
+            left: 12px;
             width:390px;
             height:285px;
+            background: rgba(0, 0, 0, 0.4); 
+            border-radius: 30px;
+          }
+          .serve .serve-1-img{
+            width: 570px;
+            height:290px;
             border-radius:30px;
             opacity:0.9;
           }
+          .serve #serve-class{
+            margin-left: 50px;
+          }
+          .serve .back-first{
+            position: absolute;
+            top: 0;
+            bottom:0;
+            right:10px;
+            left:10px;
+            width:100%;
+            height:auto;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 30px;
+          }
+          .serve .back{
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width:570px;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 30px;
+          }
+          .serve #font{
+            padding-left: 80px;
+          }
+
+          
           /* Customer section */
           .customer .card-2{
             border:none;
@@ -132,7 +183,7 @@
 @media screen and (max-width: 600px) {
       /* Hero Section */
       .hero .hero-font{
-        font-size: 30px;
+        font-size: 20px;
       }
       .hero{
         padding-bottom: 20px;
@@ -153,7 +204,7 @@
       }
       /* About section */
       .about .hero-font{
-        font-size: 30px;
+        font-size: 20px;
       }
       .about{
           padding-left: 10px;
@@ -164,15 +215,16 @@
       .about .d-flex {
         justify-content: left; /* Center icon and text */
       }
+     
     
       /* Facebook section */
       .facebook .hero-font-2{
-        font-size: 30px;
+        font-size: 20px;
       }
 
       /* Financial section */
       .financial .hero-font-2{
-          font-size: 30px;
+          font-size: 20px;
       }
       .financial .text{
         font-size: 15px;
@@ -205,11 +257,46 @@
 
       /* Serve section */
       .serve .text{
-        font-size:30px;
+        font-size:20px;
       }
+
+      .serve .serve-img{
+        width:100%;
+        height:auto;
+        border-radius:30px;
+        opacity:0.9;
+        position:relative;
+      }
+      .serve .serve-1-img{
+        width:100%;
+        height:auto;
+        border-radius:30px;
+        opacity:0.9;
+      }
+      .serve #serve-class{
+        margin-left: 0px;
+      }
+      .serve .back{
+        width:100%;
+      }
+      .serve .back-first{
+        position: absolute;
+        top: 0;
+        bottom:0;
+        right:10px;
+        left:10px;
+        width:354px;
+        height:auto;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 30px;
+      }
+      .serve #font{
+        padding-left: 0px;
+      }
+     
       /* Customer Section */
       .customer .hero-font{
-        font-size: 30px;
+        font-size: 20px;
       }
       .customer .button{
         justify-content: center;
@@ -232,20 +319,20 @@
       }
       /* Frequenly Section */
       .frequenly .hero-font-2{
-        font-size: 30px;
+        font-size: 20px;
         margin-left: 10px;
       }
       .frequenly .display-6{
         color: #001233;
         text-align-last:center;
-        font-size:18px;
+        font-size:15px;
         margin-left: 15px;
       }
       .frequenly .frequenly-accordian{
         margin-top: 20px;
       }
       .footer .hero-font-2{
-        font-size: 30px;
+        font-size: 20px;
       }
         
 
