@@ -38,4 +38,116 @@
     font-style: normal;
 
   }
+ /* Responsive screen code */
+ @media screen and (min-width: 601px) and (max-width: 1100px) {
+  /* logo */
+  .logo-img {
+    border-radius: 10px;
+    width: 60px;
+  }
  
+}
+
+@media screen and (max-width: 600px) {
+  .logo-img {
+    width: 250px;
+    border-radius: 30px;
+  }
+
+  
+  @media (max-width: 1200px) { /* For large tablets */
+    .facebook .row-cols-7 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .facebook .col {
+        flex: 0 0 calc(100% / 4 - 10px); /* 4 columns per row */
+        max-width: calc(100% / 4 - 10px);
+    }
+}
+
+@media (max-width: 992px) { /* For tablets */
+  .facebook .col {
+        flex: 0 0 calc(100% / 3 - 10px); /* 3 columns per row */
+        max-width: calc(100% / 3 - 10px);
+    }
+}
+
+@media (max-width: 768px) { /* For mobile devices */
+    .facebook .col {
+        flex: 0 0 calc(100% / 2 - 10px); /* 2 columns per row */
+        max-width: calc(100% / 2 - 10px);
+    }
+}
+
+@media (max-width: 576px) { /* For small screens */
+   .facebook  .col {
+        flex: 0 0 100%; /* 1 column per row */
+        max-width: 100%;
+    }
+    .facebook .hero-font-2{
+    font-size: 24px;
+   }
+}
+
+   
+}
+@media (max-width: 992px) { /* For tablets and below */
+  .about .row {
+      text-align: center;
+  }
+  .about .col-lg-6 {
+      width: 100%;
+  }
+  .about .content {
+      margin-top: 20px;
+  }
+  .about .row .col-lg-1 {
+      display: none; /* Hide the arrow icon on smaller screens */
+  }
+  .about .row .col-lg-11 {
+      text-align: center;
+  }
+  .about .row .col-lg-3 {
+      width: 100%;
+      margin-bottom: 0;
+      padding-bottom: 0;
+  }
+  .about .col-lg-3 {
+      position: relative;
+      top: 0 !important; /* Reset the negative margin */
+  }
+  .about .card {
+      width: 100%;
+      height: auto;
+
+  }
+}
+
+@media (max-width: 768px) { /* For mobile screens */
+  .about .container {
+      padding: 0 15px;
+      margin: 0 0;
+  }
+  .about .hero-font {
+      font-size: 24px;
+  }
+  .about .hero-font-1 {
+      font-size: 14px;
+  }
+  .about .col-lg-3 {
+      width: 100%;
+  }
+  .about .card {
+      padding: 15px;
+      height: auto;
+  }
+  .about .card-body p {
+      font-size: 14px;
+  }
+  .about button {
+      font-size: 14px;
+      padding: 5px 10px;
+  }
+}
+

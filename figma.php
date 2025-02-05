@@ -18,7 +18,9 @@
         <!--navbar-->
          <nav class="navbar navbar-expand-lg">
             <div class="container">
-            <img src="assets/Logo[1].png" class="card-img-top bg-light mt-2" style="border-radius: 10px;padding:13px;width:15%" alt="...">
+                <div class="logo-img">
+                    <img src="assets/Logo[1].png"  class="card-img-top bg-light mt-2" style="padding:10px;border-radius:10px" alt="...">
+                </div>
                     <!--Navbar icon in this field is modified to button-->
                     <button class="navbar-toggler text-light bg-light" type="button "  data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon "></span></button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -89,46 +91,46 @@
             <div class="row d-flex justify-content-center gap-4 mb-5">
               
               <!-- First Column (First Card) -->
-              <div class="col-lg-3">
-                <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:110px;">5.65%</h1>
-                <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
-                  <div class="card-body p-4 text-center">
-                    <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
-                    <button type="button" class="hero-font-1 btn text-black  py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);"> Secure Savings </button>                   
-                    <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Check account</button>
+                  <div class="col-lg-3">
+                    <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:110px;">5.65%</h1>
+                    <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
+                      <div class="card-body p-4 text-center">
+                        <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
+                        <button type="button" class="hero-font-1 btn text-black  py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);"> Secure Savings </button>                   
+                        <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Check account</button>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-
+               
               <!-- Second Column (Second Card - Slightly Higher) -->
-              <div class="col-lg-3" style="position: relative; top: -70px;">
-                <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:70px;">1.06%</h1>
-                <div class="card position-relative" style="border:none; background-color:#001233; color:white; border-radius:30px; height:195px;">
-                  <div class="card-body p-4 text-center">
-                    <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
-                    <button type="button" class="hero-font-1 btn text-black fs-6  py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);">Instant Access </button>
-                    <button type="button" class="btn text-black px-3 py-1" style="border-radius:10px; background-color:white;">Check account</button>
-                  </div>
-                </div>
-              </div>
-
+                    <div class="col-lg-3" style="position: relative; top: -70px;">
+                      <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:70px;">1.06%</h1>
+                      <div class="card position-relative" style="border:none; background-color:#001233; color:white; border-radius:30px; height:195px;">
+                        <div class="card-body p-4 text-center">
+                          <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
+                          <button type="button" class="hero-font-1 btn text-black fs-6  py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);">Instant Access </button>
+                          <button type="button" class="btn text-black px-3 py-1" style="border-radius:10px; background-color:white;">Check account</button>
+                        </div>
+                      </div>
+                    </div>
+                  
               <!-- Third Column (Third Card) -->
-              <div class="col-lg-3">
-                <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:110px;">5.65%</h1>
-                <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
-                  <div class="card-body p-4 text-center">
-                    <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
-                    <button type="button" class="hero-font-1 btn text-black fs-6  py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);">Real-time Fraud</button>
-                    <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Transactions</button>
-                  </div>
-                </div>
-              </div>
+                    <div class="col-lg-3">
+                      <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:110px;">5.65%</h1>
+                      <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
+                        <div class="card-body p-4 text-center">
+                          <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
+                          <button type="button" class="hero-font-1 btn text-black fs-6  py-1" style="border-radius:40px; background-color:yellow; position: absolute; top: -18px; left: 40%; transform: translateX(-30%);">Real-time Fraud</button>
+                          <button type="button" class="btn text-light px-3 py-1" style="border-radius:10px; background-color:#001233;">Transactions</button>
+                        </div>
+                      </div>
+                    </div>
 
             </div>
           </div>
 
       </section>
-      <section style="background-color:#EEF2F3; padding-bottom: 60px;">
+      <section  class="facebook" style="background-color:#EEF2F3; padding-bottom: 60px;">
             <div class="container pt-5">
               <h1 class="hero-font-2  pt-3 text-center" style="color: #001233;">
                 Joining Forces With Our
@@ -245,7 +247,7 @@
         <div class="container">
           <div class="row gy-4 mt-3">
             <div class="col-lg-7 ms-1">
-               <img src="assets/financial1.jpeg" style="width:655px;height:330px;border-radius:20px;" alt="...">
+               <img src="assets/financial1.jpeg" class="financial-img" style="width:655px;height:330px;border-radius:20px;" alt="...">
             </div>
             <div class="col-lg-3 ms-5">
                 <div class="card" style="background-color:#EEF2F3; border:none; border-radius:30px; height:330px;width:380px;margin-right:80px;">
