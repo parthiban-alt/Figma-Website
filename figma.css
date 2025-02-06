@@ -47,8 +47,8 @@
     align-items: center;
     justify-content: center;
   }
-   /* On screens that are 1710px or less*/
-   @media screen and (max-width: 1710px) {
+   /* On screens that are 2560px or less*/
+   @media screen and (max-width: 2560px) {
     /* Navbar */
     .navbar .logo-img{
       width:400px;
@@ -308,6 +308,7 @@
           }
     
       }
+      
 
 
 /* On screens that are 424px or less */
