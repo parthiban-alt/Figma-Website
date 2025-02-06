@@ -47,8 +47,139 @@
     align-items: center;
     justify-content: center;
   }
+   /* On screens that are 1710px or less*/
+   @media screen and (max-width: 1710px) {
+    /* Navbar */
+    .navbar .logo-img{
+      width:400px;
+      height:auto;
+    }
+    .navbar{
+      padding-top:0;
+    }
+    /* Hero Section */
+    .hero .button-1{
+      margin-top:75px;
+      width: 289px;
+    }
+   
+  
+    /* Financial section */
+      .financial .financial-img{
+        width:630px;
+        height:330px;
+        border-radius:20px;
+      }
+      .financial .card{
+        background-color:#EEF2F3;
+        border:none;
+        border-radius:30px;
+        height:330px;
+        width:380px;
+        margin-right:80px;
+       
+      }
+      .financial .card-1{
+        background-color:#EEF2F3;
+        border:none;
+        border-radius:30px;
+        height:340px;
+        width:350px;
+        
+      }
+      .financial .financial2-img{
+        border-radius:20px;
+        height:340px;
+        width:635px;
+      }
+      /* Serve section */
+      .serve{
+        padding-bottom: 30px;
+      }
+      .serve .serve-font{
+        margin-top:10px;
+      }
+      .serve .serve-img{
+        
+        height:289px;
+        border-radius:30px;
+        opacity:0.9;
+        position:relative;
+       
+      }
+        /* background */
+        .serve .serve-img-back{
+        position: absolute;
+        top: 0;
+        left: 12px;
+        width:390px;
+        height:285px;
+        background: rgba(0, 0, 0, 0.4); 
+        border-radius: 30px;
+      }
+      .serve .serve-1-img{
+        width: 570px;
+        height:290px;
+        border-radius:30px;
+        opacity:0.9;
+      }
+      .serve #serve-class{
+        margin-left: 50px;
+      }
+      .serve .back-first{
+        position: absolute;
+        top: 0;
+        bottom:0;
+        right:10px;
+        left:10px;
+        width:100%;
+        height:auto;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 30px;
+      }
+      .serve .back{
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width:570px;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 30px;
+      }
+      .serve #font{
+        padding-left: 80px;
+      }
 
-  /* On screens that are 1440px or less, set the background color to blue */
+      
+      /* Customer section */
+      .customer .card-2{
+        border:none;
+        background-color:#EEF2F3;
+        border-radius:25px;
+        height:165px;
+        padding-left: 20px;
+        padding-top: 30px;
+      }
+      .customer .card-3{
+        border:none;
+        background-color:#EEF2F3;
+        border-radius:25px;
+        height:160px;
+        padding-left: 20px;
+        padding-top: 30px;
+      }
+      /* Frequenly section */
+      .frequenly .display-6{
+        color: #001233;
+        text-align-last:center;
+        font-size:28px;
+      }
+
+  }
+
+
+
+  /* On screens that are 1440px or less */
       @media screen and (max-width: 1440px) {
         /* Navbar */
         .navbar .logo-img{
@@ -179,7 +310,7 @@
       }
 
 
-/* On screens that are 424px or less, set the */
+/* On screens that are 424px or less */
 @media screen and (max-width: 600px) {
       /* Hero Section */
       .hero .hero-font{
