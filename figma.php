@@ -299,19 +299,19 @@
                   <!-- First Image with Text Overlay & Small Images Inside -->
                   <div class="col-lg-4  position-relative">
                     <!-- Main Image -->
-                    <img src="assets/serve.jpeg" class="serve-img" alt="">
+                    <img src="assets/serve.jpeg" class="serve-img" style="width:100%;"alt="">
 
                     <!-- Overlay in Front -->
-                    <div class="back-first" ></div>
+                    <div class="back-first" style="width:94%;" ></div>
 
                     <!-- Overlay Text -->
-                    <div style="position: absolute; top: 10px; left: 20px; color: white;">
+                    <div style="position: absolute; top: 10px; color: white;">
                       <h1 class="img ps-3" style="color:yellow;font-size: 60px;">920+</h1>
                       <span class="text ps-3" style="font-size: 15px; font-weight: normal;">Project finish with superbly</span>
                     </div>
 
                     <!-- Small Images Inside the First Image at Bottom in + Symbol -->
-                    <div class="position-absolute d-flex justify-content-between" style="bottom: 35px; left: 35%; transform: translateX(-50%);">
+                    <div class="position-absolute d-flex justify-content-between" style="bottom: 35px; left: 100px; transform: translateX(-50%);">
                       <img src="assets/small1.png" style="width: 50px; height: 45px; border-radius: 50px; margin-right: -10px;" alt="Small Image 1">
                       <img src="assets/small2.png" style="width: 50px; height: 45px; border-radius: 50px; margin-right: -10px;" alt="Small Image 2">
                       <img src="assets/small3.png" style="width: 50px; height: 45px; border-radius: 50px; margin-right: -10px;" alt="Small Image 3">
@@ -319,7 +319,7 @@
                     </div>
 
                     <!-- Plus Symbol at the End -->
-                    <div class="position-absolute" style="bottom: 5px; right: 95px; color: yellow; font-size: 80px; font-weight: bold;">+</div>
+                    <div class="position-absolute" style="bottom: 5px; right: 155px; color: yellow; font-size: 80px; font-weight: bold;">+</div>
                   </div>
 
                   <!-- Second Image with Overlay & Centered Text -->

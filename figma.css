@@ -101,7 +101,7 @@
             margin-top:10px;
           }
           .serve .serve-img{
-            width:379px;
+            
             height:289px;
             border-radius:30px;
             opacity:0.9;
@@ -179,7 +179,7 @@
       }
 
 
-/* On screens that are 600px or less, set the background color to olive */
+/* On screens that are 424px or less, set the */
 @media screen and (max-width: 600px) {
       /* Hero Section */
       .hero .hero-font{
@@ -199,7 +199,7 @@
      
       /* Navbar */
       .navbar .logo-img{
-              width: 200px;
+              width: 180px;
             
       }
       /* About section */
@@ -261,7 +261,7 @@
       }
 
       .serve .serve-img{
-        width:100%;
+      
         height:auto;
         border-radius:30px;
         opacity:0.9;
@@ -283,9 +283,8 @@
         position: absolute;
         top: 0;
         bottom:0;
-        right:10px;
-        left:10px;
-        width:354px;
+       inset:0;
+        width: 100%;
         height:auto;
         background: rgba(0, 0, 0, 0.4);
         border-radius: 30px;
