@@ -53,7 +53,7 @@
                 <h6 class="hero-font-1 text-light text-capitalize fs-6 pt-2">Explore FinFuse Today. Your Finances: Discover FinFuse's Fintech Revolution, Transforming Banking Experiences One Click at a Time</h6>
                 <div class="d-flex ">
                 <button type="button" class="btn text-black px-3 py-1 mt-5 me-4" style="border-radius:30px;background-color:yellow;">Get Started</button>
-                <button type="button" class="btn text-light  px-3 py-1 mt-5" style="border:1px solid white;border-radius:40px">Watch Our Features</button>
+                <button type="button" class="btn text-light px-2 py-1 mt-5" id="hero-button"style="border:1px solid white;border-radius:40px">Watch Our Features</button>
 
                 </div>
               </div>
@@ -94,8 +94,8 @@
           <div class="row d-flex justify-content-center gap-4 mb-5">
             
             <!-- First Column (First Card) -->
-            <div class="col-lg-3">
-              <h1 class="card-text fw-bold mb-4" style="color: #001233; margin-top:110px; margin-bottom: 10px;">5.65%</h1>
+            <div class="col-lg-3 col-md-6">
+              <h1 class="card-text fw-bold mb-4">5.65%</h1>
               <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
                 <div class="card-body p-4 text-center">
                   <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
@@ -106,7 +106,7 @@
             </div>
 
             <!-- Second Column (Second Card - Slightly Higher) -->
-            <div class="col-lg-3" style="position: relative; top: -70px;">
+            <div class="col-lg-3 col-md-6" style="position: relative; top: -70px;">
               <h1 class="fw-bold mb-4" style="color: #001233; margin-bottom: 10px; margin-top:70px;">1.06%</h1>
               <div class="card position-relative" style="border:none; background-color:#001233; color:white; border-radius:30px; height:195px;">
                 <div class="card-body p-4 text-center">
@@ -118,8 +118,8 @@
             </div>
 
             <!-- Third Column (Third Card) -->
-            <div class="col-lg-3">
-              <h1 class="fw-bold mb-4" id="card-three" style="color: #001233; margin-bottom: 10px; margin-top:110px;">5.65%</h1>
+            <div class="col-lg-3 col-md-6">
+              <h1 class="card-three fw-bold mb-4">5.65%</h1>
               <div class="card position-relative" style="background-color:#EEF2F3; border:none; border-radius:30px; height:195px;">
                 <div class="card-body p-4 text-center">
                   <p>Providing Robust Security Measures to Safeguard Your Hard-Earned Savings</p>
@@ -143,7 +143,7 @@
 
             <!-- First Row -->
             <div class="container ">
-              <div class="row row-cols-7 g-2 justify-content-center">
+              <div class="row row-cols-7 g-4 justify-content-center">
                 <div class="col">
                   <button class="btn px-0 py-1 w-100 d-flex align-items-center justify-content-center"
                           style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
@@ -191,7 +191,7 @@
 
             <!-- Second Row -->
             <div class="container mt-5">
-              <div class="row row-cols-7 g-2 justify-content-center">
+              <div class="row row-cols-7 g-4 justify-content-center">
                 <div class="col">
                   <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
                           style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
@@ -372,7 +372,7 @@
                     style="width: 100px; height: 100px;">
                   <!-- Member Info -->
                   <div class="member-info ms-md-3 text-center text-md-start">
-                    <h3 class="customer" style="color:#001233;">Sarah Parker</h3>
+                    <h3 class="customer" style="color:#001233;padding-top:15px;">Sarah Parker</h3>
                    <p class="hero-font-1">FinFuse has transformed the way I handle my finances. Their intuitive budgeting tools helped me save more</p>
                   </div>
                 </div>
@@ -389,7 +389,7 @@
                     style="width: 100px; height: 100px;">
                   <!-- Member Info -->
                   <div class="member-info ms-md-3 text-center text-md-start">
-                    <h3 class="customer" style="color:#001233;">Sarah Parker</h3>
+                    <h3 class="customer" style="color:#001233;padding-top:15px;">Sarah Parker</h3>
                    <p class="hero-font-1">FinFuse has transformed the way I handle my finances. Their</p>
                   </div>
                 </div>
@@ -406,7 +406,7 @@
                     style="width: 100px; height: 100px;">
                   <!-- Member Info -->
                   <div class="member-info ms-md-3 text-center text-md-start">
-                    <h3 class="customer" style="color:#001233;">Sarah Parker</h3>
+                    <h3 class="customer" style="color:#001233;padding-top:25px;">Sarah Parker</h3>
                     <p class="hero-font-1">FinFuse has transformed the way I handle my finances. Their</p>
                   </div>
                 </div>
@@ -415,7 +415,7 @@
 
             <!-- Cusromer 4 -->
              <div class="col-lg-6">
-              <div class="card" style="border:none;background-color:#EEF2F3;border-radius:25px;" id="Team-member">
+              <div class="card-4" style="border:none;background-color:#EEF2F3;border-radius:15px;" id="Team-member">
                 <div class="card-body d-flex flex-column flex-md-row align-items-center">
                   <!-- Image -->
                   <img src="assets/customer-5.png"
@@ -423,7 +423,7 @@
                     style="width: 100px; height: 100px;">
                   <!-- Member Info -->
                   <div class="member-info ms-md-3 text-center text-md-start">
-                    <h3 class="customer" style="color:#001233;">Sarah Parker</h3>
+                    <h3 class="customer" style="color:#001233;padding-top:15px;">Sarah Parker</h3>
                    <p class="hero-font-1">FinFuse has transformed the way I handle my finances. Their intuitive budgeting tools helped me save more</p>
                   </div>
                 </div>
@@ -495,14 +495,14 @@
              
 
              <div class="frequenly-accordian col-lg-6">
-             <div class="accordion " id="accordionExample">
+             <div class="accordion " id="accordionExample1">
                   <div class="accordion-item" style="background-color:#001233;">
                     <h2 class="accordion-header" id="headingFive">
                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                             <div class="hero-font-5"> What makes FinFuse different from other banks?</div>
                       </button>
                     </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample1">
                       <div class="accordion-body">
                        <div class="hero-font-4 text-light">Opening an account with FinFuse is quick and easy. Simply click on the Open an Account' button, follow the prompts, and provide the required information. We prioritize your security throughout</div>
                       </div>
@@ -514,7 +514,7 @@
                              <div class="hero-font-5">What makes FinFuse different from other banks?</div>
                       </button>
                     </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample1">
                       <div class="accordion-body">
                        <div class="hero-font-4 text-light">Opening an account with FinFuse is quick and easy. Simply click on the Open an Account' button, follow the prompts, and provide the required information. We prioritize your security throughout</div>
                       </div>
@@ -526,7 +526,7 @@
                             <div class="hero-font-5">What makes FinFuse different from other banks?</div>
                       </button>
                     </h2>
-                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample1">
                       <div class="accordion-body">
                         <div class="hero-font-4 text-light">Opening an account with FinFuse is quick and easy. Simply click on the Open an Account' button, follow the prompts, and provide the required information. We prioritize your security throughout</div>
                       </div>
@@ -538,7 +538,7 @@
                              <div class="hero-font-5">What makes FinFuse different from other banks?</div>
                       </button>
                     </h2>
-                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample1">
                       <div class="accordion-body">
                         <div class="hero-font-4 text-light">Opening an account with FinFuse is quick and easy. Simply click on the Open an Account' button, follow the prompts, and provide the required information. We prioritize your security throughout</div>
                       </div>

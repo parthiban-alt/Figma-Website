@@ -49,9 +49,19 @@
   }
    /* On screens that are 2560px or less*/
    @media screen and (max-width: 2560px) {
+    .container .card-text{
+      margin-top:110px; 
+      margin-bottom: 10px;
+      color: #001233;
+    }
+    .container .card-three{
+      margin-top:110px; 
+      margin-bottom: 10px;
+      color: #001233;
+    }
     /* Navbar */
     .navbar .logo-img{
-      width:400px;
+      width:250px;
       height:auto;
     }
     .navbar{
@@ -181,9 +191,19 @@
 
   /* On screens that are 1440px or less */
       @media screen and (max-width: 1440px) {
+        .container .card-text{
+          margin-top:110px; 
+          margin-bottom: 10px;
+          color: #001233;
+        }
+        .container .card-three{
+          margin-top:110px; 
+          margin-bottom: 10px;
+          color: #001233;
+        }
         /* Navbar */
         .navbar .logo-img{
-          width:300px;
+          width:200px;
           height:auto;
         }
         .navbar{
@@ -308,18 +328,193 @@
           }
     
       }
+
+       /* On screens that are 1440px or less */
+       @media screen and (max-width: 1300px) {
+        .hero .hero-font{
+          font-size: 35px;
+        }
+        .hero{
+          padding-bottom: 20px;
+  
+        }
+        .hero #hero-img{
+          padding-top:10px;
+          padding-bottom: 0;
+        }
+        .hero .button-1{
+          margin-top:15px;
+        }
+        .container .card-text{
+          margin-top:10px; 
+         
+          color: #001233;
+        }
+        .container .card-three{
+          margin-top:0px; 
+          color: #001233;
+        }
+       
+       
+        /* Navbar */
+        .navbar .logo-img{
+                width: 220px;
+              
+        }
+        /* About section */
+        .about .hero-font{
+          font-size: 35px;
+        }
+        .about{
+            padding-left: 10px;
+        }
+        .about .content{
+          margin-top:0;
+        }
+        .about .d-flex {
+          justify-content: left; /* Center icon and text */
+        }
+       
       
-
-
+        /* Facebook section */
+        .facebook .hero-font-2{
+          font-size: 35px;
+        }
+  
+        /* Financial section */
+        .financial .hero-font-2{
+            font-size: 35px;
+        }
+        .financial .text{
+          font-size: 20px;
+          text-align-last: left;
+        }
+        .financial .financial-img{
+          width:100%;
+          height:auto;
+          border-radius:20px;
+        }
+        .financial .card{
+          background-color:#EEF2F3;
+          border:none;
+          border-radius:30px;
+          width:100%;
+          height:auto;
+        }
+        .financial .card-1{
+          background-color:#EEF2F3;
+          border:none;
+          border-radius:30px;
+          width:100%;
+          height:auto;
+        }
+        .financial .financial2-img{
+          width:100%;
+          height:auto;
+          border-radius:20px;
+        }
+  
+        /* Serve section */
+        .serve .text{
+          font-size:35px;
+        }
+  
+        .serve .serve-img{
+        
+          height:auto;
+          border-radius:30px;
+          opacity:0.9;
+          position:relative;
+        }
+        .serve .serve-1-img{
+          width:100%;
+          height:auto;
+          border-radius:30px;
+          opacity:0.9;
+        }
+        .serve #serve-class{
+          margin-left: 0px;
+        }
+        .serve .back{
+          width:100%;
+        }
+        .serve .back-first{
+          position: absolute;
+          top: 0;
+          left:17px;
+          bottom:0;
+      
+          width: 100%;
+          height:auto;
+          background: rgba(0, 0, 0, 0.4);
+          border-radius: 30px;
+        }
+        .serve #font{
+          padding-left: 0px;
+        }
+       
+        /* Customer Section */
+        .customer .hero-font{
+          font-size: 35px;
+        }
+        .customer .button{
+          justify-content: center;
+        }
+        .customer .card-2{
+          border:none;
+          background-color:#EEF2F3;
+          border-radius:25px;
+          height:155px;
+          padding-left: 20px;
+          padding-top: 15px;
+          padding-right: 10px;
+        }
+        .customer .card-3{
+          border:none;
+          background-color:#EEF2F3;
+          border-radius:25px;
+          height:155px;
+          padding-left: 20px;
+          padding-top: 10px;
+          padding-right: 10px;
+        }
+        .customer .card-4{
+          padding-right: 10px;
+          padding-left: 20px;
+          padding-top: 10px;
+        }
+        /* Frequenly Section */
+        .frequenly .hero-font-2{
+          font-size: 35px;
+          margin-left: 10px;
+        }
+        .frequenly .display-6{
+          color: #001233;
+          text-align-last:center;
+          font-size:20px;
+          margin-left: 15px;
+        }
+        .frequenly .hero-font-4{
+          font-size:15px;
+        }
+        .frequenly .frequenly-accordian{
+          margin-top: 20px;
+        }
+        .footer .hero-font-2{
+          font-size: 35px;
+        }
+  }
+  
+      
 /* On screens that are 424px or less */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
       /* Hero Section */
       .hero .hero-font{
         font-size: 20px;
       }
       .hero{
         padding-bottom: 20px;
-        padding-left: 20px;
+
       }
       .hero #hero-img{
         padding-top:10px;
@@ -327,6 +522,15 @@
       }
       .hero .button-1{
         margin-top:15px;
+      }
+      .container .card-text{
+        margin-top:10px; 
+       
+        color: #001233;
+      }
+      .container .card-three{
+        margin-top:0px; 
+        color: #001233;
       }
      
       /* Navbar */
@@ -414,8 +618,9 @@
       .serve .back-first{
         position: absolute;
         top: 0;
+        left:10px;
         bottom:0;
-       inset:0;
+    
         width: 100%;
         height:auto;
         background: rgba(0, 0, 0, 0.4);
@@ -459,12 +664,13 @@
         font-size:15px;
         margin-left: 15px;
       }
+      .frequenly .hero-font-4{
+        font-size:12px;
+      }
       .frequenly .frequenly-accordian{
         margin-top: 20px;
       }
       .footer .hero-font-2{
         font-size: 20px;
       }
-        
-
 }
