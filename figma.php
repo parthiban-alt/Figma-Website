@@ -47,7 +47,7 @@
     <section id="hero" class="hero">
         <div class="container">
             <div class="row ">
-              <div class="col-lg-6 order-2 order-lg-1  ">
+              <div class="col-lg-6 order-1 order-lg-1  ">
               <button type="button" class="button-1 btn text-light px-1 py-1" style="border:1px solid white;">#1 Top Fintech Banking Excellence</button>
                 <h1 class="hero-font text-light pt-4">Redefining</h1> <h1 class="hero-font" style="color:yellow;">business realities with</h1> <h1 class="hero-font text-light">ERP Solutions.</h1>
                 <h6 class="hero-font-1 text-light text-capitalize fs-6 pt-2">Explore FinFuse Today. Your Finances: Discover FinFuse's Fintech Revolution, Transforming Banking Experiences One Click at a Time</h6>
@@ -57,7 +57,7 @@
 
                 </div>
               </div>
-              <div class="col-lg-6 order-1 order-lg-2 hero-img.png my-4 " id="hero-img" >
+              <div class="col-lg-6 order-2 order-lg-2 hero-img.png my-4 " id="hero-img" >
                 <!--first img-->
              
                 <img src="assets/heroimg.png" class="card-img-top" alt="...">
@@ -82,8 +82,8 @@
 
                 <!-- Flexbox for Icon and Text (Corrected) -->
                 <div class="d-flex align-items-center mt-3">
-                  <i class="fa-solid fa-arrow-right text-light p-2 icon-bg"></i>
-                  <h5 class="ms-3 mb-0">Discover more</h5>
+                  <i class="fa-solid fa-arrow-right text-light p-2 icon-bg mb-4"></i>
+                  <h5 class=" ms-3 mb-4">Discover more</h5>
                 </div>
               </div>
             </div>
@@ -191,7 +191,7 @@
 
             <!-- Second Row -->
             <div class="container mt-5">
-              <div class="row row-cols-7 g-4 justify-content-center">
+              <div class="row row-cols-7 g-4 justify-content-center ">
                 <div class="col">
                   <button class="btn px-3 py-1 w-100 d-flex align-items-center justify-content-center"
                           style="border-radius: 30px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);">
@@ -243,7 +243,7 @@
       <section class="financial">
        <div class="container">
           <h1 class="hero-font-2 mt-5 pt-3 d-flex justify-content-center" style="color: #001233;">Empowering Your<br><h1 class="hero-font-2" style="color: #001233;text-align-last: center;">Financial Future</h1></h1>
-          <h3 class="text d-flex justify-content-center mt-3" style="color: #001233;">Your Trusted Partner in Financial Innovation - Simplify Your Finances<br><h3 class="text" style="color: #001233;text-align-last: center;">Maximize Your Potential, and Secure Your Future Empowering</h3></h3>
+          <h3 class="text d-flex justify-content-center mt-3" style="color: #001233;">Your Trusted Partner in Financial Innovation - Simplify Your Finances<br>Maximize Your Potential, and Secure Your Future Empowering</h3>
         </div>
         <div class="container">
           <div class="row gy-4 mt-3">
@@ -288,7 +288,7 @@
                   </div>
                   <div class="col-lg-6  ms-2">
                     <h6 class="serve-font hero-font-1 text-capitalize">
-                      We Pave the Way for Tomorrow's Financial Frontier by <br>Seamlessly Integrating Innovation, Accessibility, and Trust,<br>
+                      We Pave the Way for Tomorrow's Financial Frontier by Seamlessly Integrating Innovation, Accessibility, and Trust,<br>
                       Crafting Solutions That Empower Individuals.
                     </h6>
                   </div>
@@ -415,7 +415,7 @@
 
             <!-- Cusromer 4 -->
              <div class="col-lg-6">
-              <div class="card-4" style="border:none;background-color:#EEF2F3;border-radius:15px;" id="Team-member">
+              <div class="card-4" style="border:none;background-color:#EEF2F3;border-radius:15px;padding:15px;" id="Team-member">
                 <div class="card-body d-flex flex-column flex-md-row align-items-center">
                   <!-- Image -->
                   <img src="assets/customer-5.png"
@@ -562,7 +562,7 @@
             
             <div class="row ">
               <div class="col-lg-7 order-2 order-lg-1  ">
-                <h6 class="hero-font-1 text-light text-capitalize fs-6 pt-5"><i class="fa-solid fa-sliders bg-white text-secondary" style="border-radius: 50%;padding:10px;"></i> 52, johnson road, azad cinema,<br><br>1100, Dhaka </h6>      
+                <h6 class="hero-font-1 text-light text-capitalize fs-6 pt-5"><i class="fa-solid fa-sliders bg-white text-secondary" style="border-radius: 50%;padding:10px;"></i>52, johnson road, azad cinema,<br><h6 class="hero-font-1 text-light text-capitalize fs-6 ps-4">1100, Dhaka</h6> </h6>      
               </div>
               <div class="col-lg-5 order-1 order-lg-2  " >
                  <h6 class="hero-font-1 text-light text-capitalize fs-6 pt-5"><i class="fa-solid fa-sliders bg-light  text-secondary" style="border-radius: 50%;padding:10px;"></i> hello@@wolfpixel.co</h6>      
@@ -580,10 +580,10 @@
             <div class="col-lg-6 col-md-12 text-light ">
               <h6 class="hero-font-1 text-light text-capitalize fs-6 pt-2">All rights reserved By Airavad Web Solutions</h6>         
             </div>
-            <div class="col-lg-3 col-md-12 text-light ms-1 d-flex flex-row-reverse">
+            <div class="footer-row col-lg-3 col-md-12 text-light ms-1  ">
               <h6 class="hero-font-1 text-light text-capitalize fs-6 pt-2">Terms & Conditions</h6>         
             </div>
-            <div class="col-lg-2 col-md-12 text-light d-flex flex-row-reverse">
+            <div class="footer-row col-lg-2 col-md-12 text-light ">
               <h6 class="hero-font-1 text-light text-capitalize fs-6 pt-2">Privacy Policy</h6>         
             </div>
          </div>      
